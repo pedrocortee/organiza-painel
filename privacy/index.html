@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — Organiza</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f141a;
+      color: #e2e8f0;
+      line-height: 1.7;
+      padding: 0 16px;
+    }
+    header {
+      background: #151C24;
+      border-bottom: 1px solid #1e2b39;
+      padding: 20px 0;
+      text-align: center;
+    }
+    .logo-text { font-size: 24px; font-weight: 700; color: #69CD5A; letter-spacing: -0.5px; }
+    .logo-dot  { color: #D6F04F; }
+    main { max-width: 760px; margin: 48px auto 80px; }
+    h1 { font-size: 28px; font-weight: 700; color: #ffffff; margin-bottom: 8px; }
+    .subtitle { color: #94a3b8; font-size: 14px; margin-bottom: 40px; }
+    h2 {
+      font-size: 18px; font-weight: 600; color: #69CD5A;
+      margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid #1e2b39;
+    }
+    p { margin-bottom: 14px; color: #cbd5e1; font-size: 15px; }
+    ul, ol { margin: 0 0 14px 24px; color: #cbd5e1; font-size: 15px; }
+    li { margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0 24px; font-size: 14px; }
+    th, td { padding: 10px 14px; border: 1px solid #1e2b39; text-align: left; color: #cbd5e1; }
+    th { background: #151C24; color: #94a3b8; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
+    tr:nth-child(even) td { background: #151C24; }
+    .highlight-box {
+      background: #151C24; border: 1px solid #69CD5A33; border-left: 3px solid #69CD5A;
+      border-radius: 6px; padding: 16px 20px; margin: 16px 0 24px;
+    }
+    .highlight-box p { margin-bottom: 0; color: #94a3b8; font-size: 14px; }
+    .highlight-box strong { color: #69CD5A; }
+    a { color: #69CD5A; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align: center; color: #475569; font-size: 13px; padding: 32px 0; border-top: 1px solid #1e2b39; max-width: 760px; margin: 0 auto; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-text">Organiza<span class="logo-dot">.</span></div>
+</header>
+
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="subtitle">Última atualização: 05/11/2026 &nbsp;·&nbsp; Versão 1.2</p>
+
+  <div class="highlight-box">
+    <p>
+      <strong>Resumo:</strong> A Organiza coleta apenas os dados necessários para que você gerencie seus leads no WhatsApp Web.
+      Os dados dos seus leads e das suas conversas do WhatsApp <strong>nunca</strong> são usados para publicidade, nunca são vendidos
+      e nunca são compartilhados com terceiros para fins comerciais.
+    </p>
+    <p style="margin-top:8px;">
+      <strong>Medição de anúncios:</strong> no site e no painel web da Organiza, <strong>somente se você aceitar</strong> no aviso de cookies,
+      usamos o Meta Pixel: a Meta (Meta Platforms Ireland Ltd.) recebe dados de navegação e de eventos (visita, cadastro concluído,
+      início do pagamento e assinatura) para medir nossos anúncios. Você pode recusar e mudar sua escolha a qualquer momento em
+      <strong>“Preferências de cookies”</strong>, no rodapé do painel. A extensão não usa o Meta Pixel.
+    </p>
+  </div>
+
+  <h2>1. Quem somos</h2>
+  <p>
+    A <strong>Organiza</strong> é uma extensão para Google Chrome desenvolvida por Pedro Pires de La Corte
+    (<a href="mailto:pedropiresdelacorte03@gmail.com">pedropiresdelacorte03@gmail.com</a>), com sede no Brasil.
+    Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos suas informações ao utilizar a extensão Organiza.
+  </p>
+  <p>
+    Para fins da Lei Geral de Proteção de Dados (LGPD — Lei nº 13.709/2018), o desenvolvedor é o <strong>Controlador</strong> dos seus dados pessoais.
+    O serviço de banco de dados <strong>Supabase Inc.</strong> atua como Operador.
+  </p>
+
+  <h2>2. Dados coletados</h2>
+  <table>
+    <thead>
+      <tr><th>Categoria</th><th>Dados específicos</th><th>Finalidade</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Autenticação</td>
+        <td>E-mail, senha (nunca armazenada em texto puro — processada pelo Supabase Auth), token JWT de sessão</td>
+        <td>Identificar e autenticar o corretor na extensão e no painel web</td>
+      </tr>
+      <tr>
+        <td>Cadastro</td>
+        <td>Número de celular (com DDD) informado no formulário de cadastro do painel web</td>
+        <td>Contato com o titular da conta sobre a assinatura e o suporte; quando o corretor se vincula a uma imobiliária, o celular fica visível ao administrador dela</td>
+      </tr>
+      <tr>
+        <td>Contatos do WhatsApp</td>
+        <td>Nome do contato, número de telefone extraído da interface do WhatsApp Web</td>
+        <td>Criar e identificar leads no banco de dados do corretor</td>
+      </tr>
+      <tr>
+        <td>Qualificação de leads</td>
+        <td>Classificação (Quente/Morno/Frio), valor do imóvel (R$), localização de interesse, momento de compra, status de negociação</td>
+        <td>Organizar e qualificar leads para acompanhamento comercial</td>
+      </tr>
+      <tr>
+        <td>Dados de atividade</td>
+        <td>Data e hora do último contato com cada lead (capturado automaticamente ao enviar mensagens)</td>
+        <td>Calcular prioridade de follow-up e gerar métricas de desempenho</td>
+      </tr>
+      <tr>
+        <td>Cache local</td>
+        <td>Classificações, snooze de leads, preferências de exibição</td>
+        <td>Melhorar a experiência — armazenados apenas no dispositivo via <code>chrome.storage.local</code></td>
+      </tr>
+      <tr>
+        <td>Modelo de mensagem</td>
+        <td>Texto do modelo de mensagem de follow-up que você escreve na extensão</td>
+        <td>Reaproveitar o modelo nos seus navegadores — armazenado via <code>chrome.storage.sync</code>, sincronizado pela sua conta Google no Chrome (se a sincronização estiver desativada, fica apenas no dispositivo)</td>
+      </tr>
+      <tr>
+        <td>Navegação no site e no painel (só com consentimento)</td>
+        <td>Páginas visitadas, eventos (visita, cadastro concluído, início do pagamento, assinatura), endereço IP, navegador e cookies da Meta (ex.: <code>_fbp</code>). Não inclui e-mail, celular, nome nem dados dos leads</td>
+        <td>Medir o resultado dos anúncios da Organiza na Meta (Facebook/Instagram), via Meta Pixel — apenas se você clicar em “Aceitar” no aviso de cookies</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>3. Como os dados são usados</h2>
+  <p>Os dados coletados são usados <strong>exclusivamente</strong> para:</p>
+  <ul>
+    <li>Autenticar o usuário e manter a sessão ativa na extensão e no painel web</li>
+    <li>Criar, exibir, atualizar e excluir leads no banco de dados do corretor</li>
+    <li>Calcular e exibir métricas de desempenho de vendas (conversão, VGV, leads por período)</li>
+    <li>Gerar alertas de follow-up para leads sem contato recente</li>
+    <li>Sincronizar dados entre dispositivos do mesmo usuário autenticado</li>
+    <li>Somente com o seu consentimento, medir o resultado dos anúncios da Organiza com o Meta Pixel no site e no painel web (veja a seção 4)</li>
+  </ul>
+
+  <div class="highlight-box">
+    <p>
+      <strong>Declaração de Uso Limitado (Chrome Web Store — Limited Use Policy):</strong><br>
+      Os dados coletados pela extensão Organiza — leads, contatos e conversas do WhatsApp, qualificações e atividade — <strong>nunca são usados</strong>
+      para publicidade personalizada, retargeting ou interest-based advertising, e <strong>nunca são vendidos, repassados ou compartilhados</strong>
+      com terceiros para qualquer finalidade comercial ou publicitária.
+      O uso é estritamente limitado às funcionalidades descritas nesta política.
+      A única medição de anúncios é a do Meta Pixel no site e no painel web, que depende do seu consentimento e não recebe esses dados.
+    </p>
+  </div>
+
+  <h2>4. Compartilhamento com terceiros</h2>
+  <table>
+    <thead>
+      <tr><th>Serviço</th><th>Empresa</th><th>País</th><th>Finalidade</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Supabase</td>
+        <td>Supabase Inc.</td>
+        <td>Estados Unidos</td>
+        <td>Banco de dados de leads, autenticação de usuários, armazenamento seguro</td>
+      </tr>
+      <tr>
+        <td>Stripe</td>
+        <td>Stripe, Inc.</td>
+        <td>Estados Unidos</td>
+        <td>Processamento de pagamentos e gestão da assinatura</td>
+      </tr>
+      <tr>
+        <td>Nominatim (<code>nominatim.openstreetmap.org</code>)</td>
+        <td>OpenStreetMap Foundation</td>
+        <td>Reino Unido</td>
+        <td>Sugestões no campo de localização de interesse da extensão: recebe apenas o texto digitado (bairro/cidade), sem nome ou telefone do contato</td>
+      </tr>
+      <tr>
+        <td>Mapas do OpenStreetMap (<code>tile.openstreetmap.org</code>)</td>
+        <td>OpenStreetMap Foundation</td>
+        <td>Reino Unido</td>
+        <td>Imagens do mapa exibido no painel web; o servidor de mapas recebe o endereço IP do navegador e a região visualizada</td>
+      </tr>
+      <tr>
+        <td>unpkg (<code>unpkg.com</code>) e cdnjs (<code>cdnjs.cloudflare.com</code>)</td>
+        <td>unpkg / Cloudflare, Inc.</td>
+        <td>Estados Unidos</td>
+        <td>Entrega das bibliotecas do painel web (Leaflet, para o mapa, e Chart.js, para os gráficos); recebem o endereço IP do navegador ao carregar o painel</td>
+      </tr>
+      <tr>
+        <td>Meta Pixel (<code>connect.facebook.net</code> e <code>www.facebook.com</code>)</td>
+        <td>Meta Platforms Ireland Ltd.</td>
+        <td>Irlanda (com transferência para os Estados Unidos)</td>
+        <td>Medição dos anúncios da Organiza, só com consentimento no site e no painel web: recebe dados de navegação e eventos (visita, cadastro concluído, início do pagamento, assinatura com o valor do plano), endereço IP e cookies da Meta; não recebe e-mail, celular, nome nem dados dos leads</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>
+    <strong>Pagamentos:</strong> a assinatura é processada pelo Stripe. Os dados de cobrança e do cartão são informados
+    diretamente ao Stripe, por conexão criptografada, e <strong>nunca passam pelos servidores da Organiza nem ficam armazenados conosco</strong>.
+    A Organiza guarda apenas os identificadores do cliente e da assinatura no Stripe e o status da assinatura (ativa, em teste, cancelada etc.),
+    para liberar o acesso. Para mais detalhes, consulte a <a href="https://stripe.com/br/privacy" target="_blank" rel="noopener">Política de Privacidade do Stripe</a>.
+  </p>
+  <p>
+    <strong>Mapas e localização:</strong> o Nominatim e os servidores de mapas do OpenStreetMap não recebem dados dos seus leads.
+    Como qualquer site acessado pelo navegador, eles recebem o endereço IP de quem faz a requisição.
+    Consulte a <a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">Política de Privacidade da OpenStreetMap Foundation</a>.
+  </p>
+  <p>
+    <strong>Meta Pixel (medição de anúncios):</strong> no site e no painel web, um aviso de cookies pergunta se você aceita a medição.
+    O Meta Pixel só é carregado depois de “Aceitar”; se você recusar ou não responder, nada é enviado à Meta.
+    Com o consentimento, a Meta recebe as páginas visitadas e os eventos de visita, cadastro concluído, início do pagamento e assinatura
+    (com o valor e a moeda do plano), além do endereço IP, dados do navegador e cookies próprios da Meta. Não enviamos e-mail, celular, nome,
+    dados dos leads nem conteúdo do WhatsApp, e a leitura automática de formulários do Pixel fica desligada. A extensão não carrega o Meta Pixel.
+    A Meta pode transferir esses dados para os Estados Unidos. Consulte a
+    <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">Política de Privacidade da Meta</a>.
+  </p>
+  <p>
+    Os dados são transmitidos ao Supabase por conexão criptografada (HTTPS/TLS).
+    Para mais detalhes, consulte a <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Supabase</a>.
+  </p>
+  <p>
+    <strong>Transferência internacional:</strong> Ao usar a Organiza, seus dados são armazenados em servidores do Supabase Inc. nos Estados Unidos.
+    Ao aceitar esta política na tela de consentimento da extensão, você consente expressamente com essa transferência.
+  </p>
+
+  <h2>5. Base legal (LGPD)</h2>
+  <ul>
+    <li><strong>Consentimento explícito</strong> (art. 7º, I) — coletado na tela de aceite exibida na primeira utilização da extensão. Pode ser revogado a qualquer momento solicitando a exclusão da conta.</li>
+    <li><strong>Execução de contrato</strong> (art. 7º, V) — para os dados estritamente necessários para prestar o serviço contratado.</li>
+    <li><strong>Consentimento</strong> (art. 7º, I) para o Meta Pixel — dado ao clicar em “Aceitar” no aviso de cookies do site ou do painel web.
+      Sem esse clique, o Pixel não é carregado. Pode ser revogado a qualquer momento em “Preferências de cookies” (veja a seção 8).</li>
+  </ul>
+
+  <h2>6. Segurança dos dados</h2>
+  <ul>
+    <li>Toda comunicação com o Supabase usa <strong>HTTPS/TLS</strong></li>
+    <li>Senhas nunca são armazenadas em texto puro — gerenciadas com hash seguro pelo Supabase Auth</li>
+    <li>O acesso ao banco é controlado por <strong>Row Level Security (RLS)</strong> — cada usuário acessa apenas seus próprios leads, com uma exceção:
+      quando o corretor se vincula a uma imobiliária pelo código de convite, o <strong>administrador dessa imobiliária</strong> passa a
+      <strong>visualizar</strong> os leads desse corretor, além do e-mail e do celular do cadastro. O administrador apenas lê esses dados: não edita nem exclui leads do corretor</li>
+    <li>Tokens JWT têm validade limitada e são renovados automaticamente</li>
+    <li>Cache local armazenado em <code>chrome.storage.local</code> — inacessível a outras páginas ou extensões</li>
+    <li>O modelo de mensagem de follow-up fica em <code>chrome.storage.sync</code>, também inacessível a outras páginas ou extensões, e é sincronizado pelo Google entre os navegadores Chrome conectados à sua conta</li>
+  </ul>
+
+  <h2>7. Retenção de dados</h2>
+  <p>
+    Os dados são mantidos enquanto sua conta estiver ativa. Ao solicitar a exclusão da conta, todos os dados associados (leads, qualificações, histórico) são permanentemente excluídos do banco dentro de <strong>30 dias</strong>.
+  </p>
+  <p>
+    Dados de cache no dispositivo são apagados automaticamente ao fazer logout na extensão ou ao desinstalá-la.
+    O modelo de mensagem de follow-up (<code>chrome.storage.sync</code>) não é apagado no logout: é removido ao apagar o texto do modelo na extensão ou ao desinstalá-la.
+  </p>
+
+  <h2>8. Seus direitos (LGPD)</h2>
+  <ul>
+    <li><strong>Acesso:</strong> solicitar cópia de todos os dados mantidos sobre você</li>
+    <li><strong>Correção:</strong> solicitar correção de dados inexatos ou desatualizados</li>
+    <li><strong>Exclusão:</strong> solicitar a remoção permanente dos seus dados</li>
+    <li><strong>Portabilidade:</strong> solicitar exportação dos dados em formato estruturado</li>
+    <li><strong>Revogação do consentimento:</strong> revogar o consentimento dado anteriormente</li>
+  </ul>
+  <p>
+    <strong>Cookies da Meta:</strong> para recusar ou revogar a medição de anúncios, clique em <strong>“Preferências de cookies”</strong>
+    no rodapé do painel web (ou no aviso de cookies do site) e escolha “Recusar”. A partir daí o Meta Pixel deixa de enviar eventos e não é mais carregado.
+    Você também pode apagar os cookies do navegador e ajustar as preferências de anúncios na sua conta da Meta.
+  </p>
+  <p>
+    Para exercer esses direitos, envie um e-mail para
+    <a href="mailto:pedropiresdelacorte03@gmail.com">pedropiresdelacorte03@gmail.com</a>
+    com o assunto <strong>"Solicitação LGPD"</strong>. Respondemos em até 15 dias úteis.
+  </p>
+
+  <h2>9. Crianças e adolescentes</h2>
+  <p>
+    A extensão Organiza é destinada exclusivamente a profissionais adultos. Não coletamos intencionalmente dados de menores de 18 anos.
+    Caso isso ocorra, entre em contato para exclusão imediata.
+  </p>
+
+  <h2>10. Alterações nesta política</h2>
+  <p>
+    Esta política pode ser atualizada periodicamente. Alterações relevantes serão comunicadas via extensão.
+    A data da última atualização estará sempre indicada no topo desta página.
+  </p>
+
+  <h2>11. Contato</h2>
+  <ul>
+    <li><strong>Responsável:</strong> Pedro Pires de La Corte</li>
+    <li><strong>E-mail:</strong> <a href="mailto:pedropiresdelacorte03@gmail.com">pedropiresdelacorte03@gmail.com</a></li>
+    <li><strong>País:</strong> Brasil</li>
+  </ul>
+</main>
+
+<footer>
+  <p>© 2026 Organiza. Todos os direitos reservados.</p>
+  <p style="margin-top:6px;">Em conformidade com a LGPD (Lei nº 13.709/2018) e com as políticas do Chrome Web Store.</p>
+</footer>
+
+</body>
+</html>
